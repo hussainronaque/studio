@@ -48,17 +48,17 @@ export function Navbar() {
         </nav>
         <div className="hidden md:flex items-center space-x-3">
           <Button variant="ghost" size="icon" asChild>
-            <a href="https://github.com/yourusername" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+            <a href="https://github.com/hussainronaque" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
               <Github className="h-5 w-5" />
             </a>
           </Button>
           <Button variant="ghost" size="icon" asChild>
-            <a href="https://linkedin.com/in/yourusername" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+            <a href="https://www.linkedin.com/in/hussainronaque" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
               <Linkedin className="h-5 w-5" />
             </a>
           </Button>
            <Button variant="ghost" size="icon" asChild>
-            <a href="mailto:youremail@example.com" aria-label="Email">
+            <a href="mailto:hmustanasir24@gmail.com" aria-label="Email">
               <Mail className="h-5 w-5" />
             </a>
           </Button>
@@ -100,17 +100,17 @@ export function Navbar() {
               </SheetClose>
               <div className="flex items-center space-x-3 pt-4 border-t border-border">
                 <Button variant="ghost" size="icon" asChild>
-                  <a href="https://github.com/yourusername" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+                  <a href="https://github.com/hussainronaque" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
                     <Github className="h-5 w-5" />
                   </a>
                 </Button>
                 <Button variant="ghost" size="icon" asChild>
-                  <a href="https://linkedin.com/in/yourusername" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+                  <a href="https://www.linkedin.com/in/hussainronaque" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
                     <Linkedin className="h-5 w-5" />
                   </a>
                 </Button>
                 <Button variant="ghost" size="icon" asChild>
-                  <a href="mailto:youremail@example.com" aria-label="Email">
+                  <a href="mailto:hmustanasir24@gmail.com" aria-label="Email">
                     <Mail className="h-5 w-5" />
                   </a>
                 </Button>

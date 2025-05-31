@@ -1,5 +1,5 @@
 import type { LucideIcon } from 'lucide-react';
-import { Code, DatabaseZap, ServerCog, Palette, Cog, Smartphone, BrainCircuit } from 'lucide-react'; // Using BrainCircuit for AI/ML
+import { Code, DatabaseZap, Palette, Cog, BrainCircuit, ShieldCheck, Microscope, BarChart3, Settings2, Github, Wind, LayoutPanelLeft, FileText, GitMerge, Shapes, Cpu } from 'lucide-react';
 
 export interface Skill {
   name: string;
@@ -13,57 +13,58 @@ export interface SkillCategory {
 
 export const skillCategories: SkillCategory[] = [
   {
-    title: "Languages",
+    title: "Programming Languages",
     skills: [
-      { name: "JavaScript", icon: Code },
-      { name: "TypeScript", icon: Code },
       { name: "Python", icon: Code },
-      { name: "Java", icon: Code },
       { name: "C++", icon: Code },
+      { name: "C", icon: Code },
+      { name: "C#", icon: Code },
+      { name: "HTML/CSS", icon: Palette },
       { name: "SQL", icon: DatabaseZap },
     ],
   },
   {
-    title: "Frontend",
+    title: "Web Development & Platforms",
     skills: [
-      { name: "HTML5", icon: Code },
-      { name: "CSS3", icon: Palette },
-      { name: "React", icon: Code },
-      { name: "Next.js", icon: Code },
-      { name: "Tailwind CSS", icon: Palette },
-    ],
-  },
-  {
-    title: "Backend",
-    skills: [
-      { name: "Node.js", icon: ServerCog },
-      { name: "Express.js", icon: ServerCog },
-      { name: "Firebase", icon: ServerCog }, // Using ServerCog as a general backend icon
+      { name: "Shopify", icon: LayoutPanelLeft },
+      { name: "Wordpress", icon: LayoutPanelLeft },
+      { name: "Woocommerce", icon: LayoutPanelLeft },
     ],
   },
   {
     title: "Databases",
     skills: [
-      { name: "MongoDB", icon: DatabaseZap },
-      { name: "PostgreSQL", icon: DatabaseZap },
+      { name: "MS SQL", icon: DatabaseZap },
       { name: "MySQL", icon: DatabaseZap },
+      { name: "PyODBC", icon: GitMerge },
     ],
   },
   {
-    title: "Tools & Technologies",
+    title: "AI & Data Science",
     skills: [
-      { name: "Git & GitHub", icon: Cog },
-      { name: "Docker", icon: Cog },
-      { name: "REST APIs", icon: ServerCog },
-      { name: "Jest", icon: Cog }, // Testing
-      { name: "GenAI", icon: BrainCircuit}
+      { name: "Transformer NLP Models (BART, T5)", icon: BrainCircuit },
+      { name: "Pandas", icon: BarChart3 },
+      { name: "NumPy", icon: BarChart3 },
+      { name: "Matplotlib", icon: BarChart3 },
+      { name: "BeautifulSoup", icon: FileText },
+      { name: "Tesseract OCR", icon: Microscope },
+      { name: "Weights & Biases (W&B)", icon: Settings2 },
     ],
   },
   {
-    title: "Mobile Development",
+    title: "GUI & Multimedia",
     skills: [
-      { name: "React Native", icon: Smartphone },
-      { name: "Flutter", icon: Smartphone },
-    ]
-  }
+      { name: "Tkinter", icon: Cpu },
+      { name: "PyQt6", icon: Cpu },
+      { name: "SDL Library", icon: Wind },
+    ],
+  },
+  {
+    title: "Tools & Concepts",
+    skills: [
+      { name: "Git & GitHub", icon: Github },
+      { name: "Object-Oriented Programming", icon: Shapes },
+      { name: "SHA-256 Hashing", icon: ShieldCheck },
+    ],
+  },
 ];

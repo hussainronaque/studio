@@ -11,8 +11,8 @@ const inter = Inter({
 
 
 export const metadata: Metadata = {
-  title: 'CodeFolio - Portfolio',
-  description: 'A personal portfolio website showcasing projects and skills.',
+  title: 'Hussain Mustansir - Portfolio',
+  description: 'A personal portfolio website showcasing projects and skills of Hussain Mustansir, a Computer Science student.',
 };
 
 export default function RootLayout({

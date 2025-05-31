@@ -12,21 +12,21 @@ export function Footer() {
           <Logo />
         </div>
         <p className="text-sm text-muted-foreground mb-6">
-          &copy; {currentYear} CodeFolio. All rights reserved.
+          &copy; {currentYear} Hussain Mustansir. All rights reserved.
         </p>
         <div className="flex justify-center space-x-4">
           <Button variant="ghost" size="icon" asChild>
-            <a href="https://github.com/yourusername" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+            <a href="https://github.com/hussainronaque" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
               <Github className="h-5 w-5" />
             </a>
           </Button>
           <Button variant="ghost" size="icon" asChild>
-            <a href="https://linkedin.com/in/yourusername" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+            <a href="https://www.linkedin.com/in/hussainronaque" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
               <Linkedin className="h-5 w-5" />
             </a>
           </Button>
            <Button variant="ghost" size="icon" asChild>
-            <a href="mailto:youremail@example.com" aria-label="Email">
+            <a href="mailto:hmustanasir24@gmail.com" aria-label="Email">
               <Mail className="h-5 w-5" />
             </a>
           </Button>

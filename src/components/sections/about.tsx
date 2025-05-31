@@ -1,6 +1,6 @@
 import { Button } from '@/components/ui/button';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
-import { Download, Github, Linkedin, Mail, ExternalLink } from 'lucide-react';
+import { Download, Github, Linkedin, Mail } from 'lucide-react';
 import Image from 'next/image';
 import { skillCategories, type SkillCategory } from '@/data/skills';
 
@@ -13,7 +13,7 @@ export function AboutSection() {
           <div className="md:col-span-1 flex justify-center animate-fade-in-up" style={{ animationDelay: '0.2s' }}>
             <Image
               src="https://placehold.co/400x400.png"
-              alt="Your Name"
+              alt="Hussain Mustansir"
               width={300}
               height={300}
               className="rounded-full shadow-lg border-4 border-primary object-cover"
@@ -22,13 +22,13 @@ export function AboutSection() {
           </div>
           <div className="md:col-span-2 space-y-6 animate-fade-in-up" style={{ animationDelay: '0.4s' }}>
             <p className="text-lg text-foreground/80 leading-relaxed">
-              Hello! I&apos;m Your Name, a passionate and driven final year Computer Science student with a strong foundation in software development, web technologies, and problem-solving. I thrive on creating elegant and efficient solutions to complex challenges.
+              Hello! I&apos;m Hussain Mustansir, a dedicated and driven Computer Science student at Habib University (2022-Present). With a strong foundation in programming languages like Python, C++, and C#, and experience developing diverse academic projects ranging from AI models for legal tech to 2D RPG games, I am passionate about leveraging technology to create innovative and impactful solutions.
             </p>
             <p className="text-lg text-foreground/80 leading-relaxed">
-              My journey in tech has equipped me with a diverse skillset, and I&apos;m always eager to learn new technologies and methodologies. I&apos;m particularly interested in full-stack development, cloud computing, and artificial intelligence.
+              My technical journey includes proficiency in database management (MS SQL, MySQL), GUI development (PyQt6, Tkinter), data science libraries (Pandas, NumPy, Matplotlib), and web technologies. My recent internship at Habib Bank Limited further honed my analytical and strategic thinking skills.
             </p>
             <p className="text-lg text-foreground/80 leading-relaxed">
-              When I&apos;m not coding, I enjoy [Your Hobby 1], [Your Hobby 2], and exploring new tech trends. I&apos;m currently seeking opportunities where I can contribute my skills and grow as a developer.
+              I am always eager to learn and apply new technologies, with a keen interest in AI, software development, and system design. I am currently seeking opportunities where I can contribute my skills and continue to grow as a developer.
             </p>
             <div className="flex flex-wrap gap-4 pt-4">
               <Button asChild>
@@ -37,17 +37,17 @@ export function AboutSection() {
                 </a>
               </Button>
               <Button variant="outline" asChild>
-                <a href="https://github.com/yourusername" target="_blank" rel="noopener noreferrer">
+                <a href="https://github.com/hussainronaque" target="_blank" rel="noopener noreferrer">
                   <Github className="mr-2 h-4 w-4" /> GitHub
                 </a>
               </Button>
               <Button variant="outline" asChild>
-                <a href="https://linkedin.com/in/yourusername" target="_blank" rel="noopener noreferrer">
+                <a href="https://www.linkedin.com/in/hussainronaque" target="_blank" rel="noopener noreferrer">
                   <Linkedin className="mr-2 h-4 w-4" /> LinkedIn
                 </a>
               </Button>
               <Button variant="outline" asChild>
-                <a href="mailto:youremail@example.com">
+                <a href="mailto:hmustanasir24@gmail.com">
                   <Mail className="mr-2 h-4 w-4" /> Email Me
                 </a>
               </Button>
